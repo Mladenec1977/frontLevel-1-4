@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 90%;
+}
+
+img {
+    height: 100%;
+    width: auto;
+}
+
+table, th, td {
+    background: white;
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    /*padding: 15px;*/
+    font-size: 25px;
+    font-family: 'Orelega One', cursive;
+    color: brown;
+}
+
+table {
+    width: 100%;
+    max-width: 1000px;
+}
+
+th {
+    background: aqua;
+    font-size: 30px;
+}
+.delete {
+    background: red;
+    color: white;
+}
+
+.btn {
+    background: yellow;
+    padding: 15px;
+}
+input {
+    padding: 15px 0;
+    width: 95%;
+    height: 100%;
+}
